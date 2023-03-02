@@ -10,7 +10,7 @@ public class NavigateCommands extends Base{
 	{
 	String expectedUrl="https://www.flipkart.com/";
 	driver.navigate().to("https://www.flipkart.com/");
-    String actualurl=driver.getCurrentUrl();
+    String actualurl=driver.getCurrentUrl();//flipkart
     assertEquals(expectedUrl,actualurl,"url is not same");
 	}
 	@Test
