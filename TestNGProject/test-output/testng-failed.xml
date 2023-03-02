@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.TestNG.CountString">
+      <class name="com.obsqura.TestNG.RadioButtonsDemo">
         <methods>
-          <include name="countString"/>
           <include name="initialiseBrowser"/>
           <include name="driverQuit"/>
+          <include name="maleRadioButtonDemo"/>
         </methods>
-      </class> <!-- com.obsqura.TestNG.CountString -->
+      </class> <!-- com.obsqura.TestNG.RadioButtonsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
