@@ -11,7 +11,7 @@ public class SelectCategory extends Base {
 	
 	public SelectCategory(WebDriver driver)
 	{
-		this.driver=driver;
+		this.driver=driver;//same driver 
 		
 	}
 	@Test
