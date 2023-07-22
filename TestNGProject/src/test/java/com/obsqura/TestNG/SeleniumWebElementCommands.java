@@ -8,6 +8,7 @@ public class SeleniumWebElementCommands extends Base {
 	@Test
 	public void webElements()
 	{
+		//Selenium - Automation Practice Form
 		driver.navigate().to("https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm");
 		WebElement firstname=driver.findElement(By.name("firstname"));
 		firstname.sendKeys("salu");

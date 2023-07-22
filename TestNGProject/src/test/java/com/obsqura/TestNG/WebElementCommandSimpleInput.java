@@ -3,13 +3,17 @@ package com.obsqura.TestNG;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class WebElementCommands extends Base {
+public class WebElementCommandSimpleInput extends Base {
 	@Test
 	/*public void sendKeys()
 	{
